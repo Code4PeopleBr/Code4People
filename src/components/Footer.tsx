@@ -76,9 +76,8 @@ export default function Footer() {
           }}
         >
           {[
-            { label: "Instagram ↗", href: "#" },
-            { label: "LinkedIn ↗", href: "#" },
-            { label: "GitHub ↗", href: "#" },
+            { label: "Instagram ↗", href: "https://www.instagram.com/code4people/" },
+            { label: "GitHub ↗", href: "https://github.com/code4peoplebr" },
           ].map((s) => (
             <a
               key={s.label}
